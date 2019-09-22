@@ -31,7 +31,7 @@ const minNode = (node) => {
   }
   return node.value
 }
-
+dd
 const maxNode = (node) => {
    if(!node){
      return 0;
