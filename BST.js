@@ -31,7 +31,7 @@ const minNode = (node) => {
   }
   return node.value
 }
-dd
+
 const maxNode = (node) => {
    if(!node){
      return 0;
@@ -57,7 +57,7 @@ const contains = (node, value) => {
   }
 }
 
-//
+
 
 const factorial = (n) => {
     if (n === 1) {
