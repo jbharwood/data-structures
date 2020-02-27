@@ -1,3 +1,9 @@
+// The queue is a first in, first out (FIFO) data structure. The developer can use Queue in the following use cases.
+//
+// Use queue when the developer wants an order.
+// Processed in First In First Out order.
+// If the developer wants to add or remove both ends, they can use the queue or a double-ended queue.
+
 class Queue {
   constructor() {
     this.queue = []

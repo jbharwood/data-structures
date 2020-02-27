@@ -22,6 +22,34 @@ As always, you can change describe to xdescribe to prevent the unit tests from r
 
 */
 
+// A binary search tree is a tree data structure in which root node is less than or equal to left subtree and greater than 
+// or equal to right subtree. The developer can use Binary Search Tree in the following use cases.
+//
+// Binary Search Trees are memory-efficient.
+// Use when the data need to be sorted.
+// Search can be done for a range of values.
+// Height balancing helps to reduce the running time.
+
+  // Definition for a binary tree node.
+function TreeNode(val) {
+  this.val = val;
+  this.left = this.right = null;
+}
+ // @param {TreeNode} root
+ // @return {number}
+var findTilt = function (root) {
+  let tilt = 0
+  sum(root)
+  return tilt
+
+  function sum(n) {
+    if (!n) return 0
+    let l = sum(n.left), r = sum(n.right)
+    tilt += Math.abs(l - r)
+    return l + r + n.val
+  }
+};
+
 class Tree {
   constructor() {
     this.root = null;

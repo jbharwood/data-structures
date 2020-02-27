@@ -23,6 +23,14 @@
   you work
 */
 
+// Linked list is a data structure which links each node to the next node. The developer can use linked list in the
+// following use cases.
+//
+// When the developer needs constant time for insertion and deletion.
+// When the data dynamically grows.
+// Do not access random elements from the linked list.
+// Insert the element in any position of the list.
+
 class LinkedList {
   constructor() {
     this.tail = this.head = null;

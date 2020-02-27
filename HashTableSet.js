@@ -16,6 +16,15 @@
                      same output
 */
 
+// Hash table is a data structure used to implement an associative array, a structure that can map keys to values. 
+// The developer can use Hash table in the following use cases.
+//
+// Constant time operation.
+// Inserts are generally slow, reads are faster than trees.
+// Hashing is used so that searching a database can be done more efficiently.
+// Internet routers use hash tables to route the data from one computer to another.
+// Internet search engine uses hash function effectively.
+
 class HashTable {
   constructor() {
     this.table = new Array(255)
